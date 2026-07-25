@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Official support information for AmbleArc.">
+  <title>Support — AmbleArc</title>
+  <link rel="canonical" href="https://nathan-jermin02.github.io/amblearc-support/support/">
+  <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../" aria-label="AmbleArc home">
+      <span class="brand-mark" aria-hidden="true">A</span>
+      <span>AmbleArc</span>
+    </a>
+    <nav aria-label="Primary">
+      <a href="../privacy/">Privacy</a>
+      <a aria-current="page" href="./">Support</a>
+    </nav>
+  </header>
+
+  <main class="document">
+    <p class="eyebrow">Help with AmbleArc</p>
+    <h1>Support</h1>
+    <p class="lede">AmbleArc is a private, read-only Apple Health companion that helps put today’s steps in the context of a pace you choose.</p>
+
+    <section class="contact-card">
+      <h2>Contact support</h2>
+      <p>For app issues, feedback, or feature requests, email:</p>
+      <p><a class="button primary" href="mailto:steppaceapp@gmail.com?subject=AmbleArc%20Support">steppaceapp@gmail.com</a></p>
+      <p class="small">Include your AmbleArc version, device model, iOS or watchOS version, and what happened. Please do not include personal Health information.</p>
+    </section>
+
+    <section>
+      <h2>Requirements</h2>
+      <ul>
+        <li>iPhone with iOS 17 or later.</li>
+        <li>Apple Watch with watchOS 10 or later for the optional Watch app and complications.</li>
+        <li>Apple Health availability and read permission for live step progress.</li>
+        <li>Optional Walking Speed and Walking Step Length permission for automatic walk-time estimates.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Common questions</h2>
+
+      <details>
+        <summary>My step count is zero or differs from Apple Health</summary>
+        <p>Confirm that Apple Health contains step samples for today. In AmbleArc, open <strong>Settings → Health</strong> and choose <strong>Request or Refresh Health Access</strong>. You can also choose <strong>Review Health Access in Settings</strong>.</p>
+        <p>Apple keeps Health read choices private. AmbleArc cannot distinguish denied read access from a category with no readable samples.</p>
+      </details>
+
+      <details>
+        <summary>Walking estimates use manual cadence</summary>
+        <p>Automatic cadence requires readable Walking Speed and Walking Step Length samples. Review both rows under <strong>Settings → Health</strong> and refresh access. If either category is unavailable, AmbleArc safely uses your manual cadence.</p>
+      </details>
+
+      <details>
+        <summary>A widget or complication looks stale</summary>
+        <p>Open AmbleArc and refresh it. Widgets and complications display cached on-device snapshots because they do not query Apple Health directly. Background delivery and widget refresh timing are controlled by the system and are not guaranteed at exact times.</p>
+      </details>
+
+      <details>
+        <summary>The Apple Watch total is different</summary>
+        <p>The Watch app reads step count directly from Apple Health on the Watch. Confirm Health access for AmbleArc, open the Watch app, and choose <strong>Try Again</strong> if an error appears. Allow time for Apple Health to reconcile samples between devices.</p>
+      </details>
+
+      <details>
+        <summary>Notifications do not arrive</summary>
+        <p>Review notification access, enabled days, active and quiet hours, cooldown, daily maximum, and reminder toggles in AmbleArc Settings. Then review <strong>iOS Settings → Notifications → AmbleArc</strong>. Smart reminders depend on an actual refresh opportunity; a scheduled notification cannot run a Health query when it appears.</p>
+      </details>
+
+      <details>
+        <summary>How do I remove my AmbleArc data?</summary>
+        <p>Open <strong>AmbleArc Settings → Privacy Policy &amp; Data</strong> and choose <strong>Delete Local Progress Data</strong>. This removes local history, milestones, notification history, and cached widget progress without changing Apple Health. Deleting the app removes its active local app data; settings retained in an older device backup may require separate removal through Apple’s backup controls.</p>
+      </details>
+    </section>
+
+    <section>
+      <h2>Privacy and safety</h2>
+      <p>AmbleArc has no account, advertising, analytics, subscription, tracking, or developer-operated backend. Health access is read-only. Read the full <a href="../privacy/">AmbleArc Privacy Policy</a>.</p>
+      <p>AmbleArc is a fitness planning tool, not a medical device, and does not provide medical advice.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Nathan Ryan Jermin · <a href="../privacy/">Privacy</a></p>
+  </footer>
+</body>
+</html>
