@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nathan-jermin02.github.io/amblearc-support/sitemap.xml
+Sitemap: https://nathan-jermin02.github.io/steppace-support/sitemap.xml
